@@ -3,15 +3,26 @@
         <link rel="stylesheet" href="Website.css">
     </head>
     <body>
+        <div class="navbar">
+            <a href="Website.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbutton">Projects
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdowncontent">
+                    <a href="SFR.html">Sheffield Formula Racing</a>
+                    <a href="PersProj.html">Personal Projects</a>
+                </div>
+            </div>
+            <a href="Contact.html">Contact</a>
+        </div>
         <div class="container">
             <header id="head">
-                <br>
                 <p>Tymoteusz Krzyzanowski</p>
-                <p>EEE student, UoS</p>
-                <br>
+                <p>Electrical and Electronics Engineering Student<br>University of Sheffield<br>UKESF Semiconductor Talent Award</p>
             </header>
-            <div class="topmedia">
-                <p>temp</p>
+            <div id="topmedia">
+                <img src="circ.jpg" alt="Image of Circuit Board">
             </div>
             <div class="content">
                 <p>Here we display the sections in source order for screens less than 576 pixels wide.</p>
@@ -19,7 +30,6 @@
                 <p>Then, we go to a three column layout for screens over 767 pixels wide.</p>
                 <p>Resize the browser window to see the responsive effect.</p>
             </div>
-            <!--<footer class="footer">Footer</footer>-->
         </div>
         
     </body>
